@@ -57,11 +57,15 @@
   color: #fff;
   opacity: 0;
 }
+.main_header .header_cont .o_g .o_u.o_df_2-12 {
+  box-sizing: border-box;
+  text-align: right;
+  height: 100%;
+}
 .main_header .header_cont .o_g .o_u.o_df_2-12 .main_select {
   width: 60px;
   height: 60px;
   margin: 10px 0 0;
-  position: relative;
   display: inline-block;
 }
 .main_header .header_cont .o_g .o_u.o_df_2-12 .main_select .toggle {
@@ -72,6 +76,7 @@
   position: relative;
 }
 .main_header .header_cont .o_g .o_u.o_df_2-12 .main_select .toggle .iconfont {
+  vertical-align: top;
   color: #8a6f3a;
   font-size: 25px;
   position: absolute;
@@ -84,6 +89,7 @@
   margin: 10px 0 0;
   position: relative;
   display: inline-block;
+  vertical-align: top;
   z-index: 0;
   line-height: 60px;
   color: #a88747;
@@ -378,6 +384,7 @@
 .cui_mainbox .binfenC {
   margin-bottom: 80px;
   margin-top: 40px;
+  /*需要分页自定义css*/
 }
 .cui_mainbox .binfenC h1 {
   font-size: 24px;
@@ -402,4 +409,106 @@
   width: 1052px;
   margin: 0 0;
   margin-top: 15px;
+}
+.cui_mainbox .binfenC .showbox ul li div {
+  padding: 0 15px 15px;
+  white-space: normal;
+  box-sizing: inherit;
+  display: inline-block;
+  position: relative;
+}
+.cui_mainbox .binfenC .showbox ul li div .tit {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.2em;
+  margin: 20px 0;
+  display: block;
+  height: 1.1em;
+  overflow: hidden;
+}
+.cui_mainbox .binfenC .showbox a.imgbox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+.cui_mainbox .binfenC .showbox a.imgbox img {
+  width: 100%;
+}
+.cui_mainbox .binfenC .showbox a.imgbox span.artflag {
+  font-size: 12px;
+  width: 60px;
+  height: 25px;
+  color: #fff;
+  line-height: 25px;
+  text-indent: 16px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: url(ia_100000102.png) no-repeat;
+}
+.cui_mainbox .binfenC .showbox a.imgbox span.artflag.end {
+  background-position: -60px 0px;
+}
+.cui_mainbox .binfenC .showbox a.imgbox span.artflag.start {
+  background-position: 0px 0px;
+}
+.cui_mainbox .binfenC .showbox .tool {
+  border-top: 1px solid #f2f2f2;
+  padding: 10px 0 30px;
+  line-height: 24px;
+  color: #666;
+  font-size: 0;
+}
+.cui_mainbox .binfenC .showbox .tool .brand {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  color: white;
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  line-height: 24px;
+  background: #000;
+  font-size: 12px;
+}
+.cui_mainbox .binfenC .showbox .tool .name {
+  font-size: 12px;
+}
+.cui_mainbox .binfenC .paper_box {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  display: block;
+  bottom: -15px;
+  background: #ececec;
+  height: 5px;
+  margin-bottom: 15px;
+  border-left: 15px solid white;
+  box-sizing: border-box;
+  height: 1px;
+  border-right: 15px solid white;
+}
+.cui_mainbox .binfenC .pager {
+  background: white;
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 0;
+  top: -5px;
+  position: relative;
+}
+.cui_mainbox .binfenC .pager li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+  background: #b2b2b2;
+  margin: 0 3px;
+  opacity: 1;
+  cursor: pointer;
+}
+.cui_mainbox .binfenC .pager li.cur {
+  background: black;
 }

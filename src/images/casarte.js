@@ -1,3 +1,4 @@
+// 第一个轮播图
 var bannerSlider = $(".js_banner").oSlider({
     loop: true,
     pager: ".js_pager",
@@ -11,3 +12,10 @@ var bannerSlider = $(".js_banner").oSlider({
     }
 });
 bannerSlider.init();
+// 第二个轮播图
+var bannerSlider2 = $(".js_banner2").oSlider({
+    loop: true,
+    pager: ".js_pager2",
+    pagerHover: false,
+});
+bannerSlider2.init();
