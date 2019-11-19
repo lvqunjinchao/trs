@@ -11,6 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=10;IE=9; IE=8; IE=7; IE=EDGE">
     <!-- css资源start -->
+    <link rel="stylesheet" href="./images/obox.css">
     <!-- css资源end -->
     <!-- 本页面独立css start -->
     <link rel="stylesheet" href="./images/casarte.css">
@@ -36,7 +37,7 @@
     <!-- js资源start -->
     <!-- js资源end -->
     <!-- 本地页面独立js start -->
-    <script type="text/javascript" src="demo.js"></script>
+    <script type="text/javascript" src="./images/obox-min.js"></script>
     <!-- 本页面独立js end -->
 </body>
 
