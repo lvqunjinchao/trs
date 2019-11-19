@@ -12,6 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=10;IE=9; IE=8; IE=7; IE=EDGE">
     <!-- css资源start -->
     <link rel="stylesheet" href="./images/obox.css">
+    <link rel="stylesheet" href="./images/iconfont/iconfont.css" />
+    <!-- <link rel="stylesheet" href="./images/reset.css"> -->
     <!-- css资源end -->
     <!-- 本页面独立css start -->
     <link rel="stylesheet" href="./images/casarte.css">
@@ -24,10 +26,151 @@
             <!-- 头部start -->
             <!--#include virtual="header.shtml"-->
             <!-- 头部end -->
+            <div class="c_indextop">
+                <!-- 预加载图片 -->
+                <img src="./images/ia_100000000.png" alt="" class="displaynone">
+                <img src="./images/ia_100000115.png" alt="" class="displaynone">
+                <img src="./images/ia_100000118.png" alt="" class="displaynone">
+                <img src="./images/ia_100000102.png" alt="" class="displaynone">
+                <div class="banner js_banner">
+                    <div class="showbox">
+                        <ul class="o_g">
+                            <li class="o_u o_df_2-2 o_sm_1-2 relative">
+                                <img src="./images/ia_100000029.jpeg" alt="">
+                                <div class="banner_detail left">
+                                    <h2>卡萨帝指挥家自由嵌入式冰箱</h2>
+                                    <p>尊享自然 天赋意境</p>
+                                </div>
+                            </li>
+                            <li class="o_u o_df_2-2 o_sm_1-2 relative">
+                                <img class="o_lazy" df="./images/ia_100000030.jpg" alt="">
+                                <div class="banner_detail right">
+                                    <h2>卡萨帝云玺中央空调</h2>
+                                    <p>生态微风 舒适每一度</p>
+                                </div>
+                            </li>
+                            <li class="o_u o_df_2-2 o_sm_1-2 relative">
+                                <img class="o_lazy" df="./images/ia_100000031.jpg" alt="">
+                                <div class="banner_detail left">
+                                    <h2>卡萨帝天玺空调</h2>
+                                    <p>智慧感温科技 定制专属舒适感</p>
+                                </div>
+                            </li>
+                            <li class="o_u o_df_2-2 o_sm_1-2 relative">
+                                <img class="o_lazy" df="./images/ia_100000032.jpg" alt="">
+                                <div class="banner_detail right">
+                                    <h2>卡萨帝指挥家成套厨电产品</h2>
+                                    <p>高端烹饪解决方案</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--分页-->
+                    <ul class="pager js_pager">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="c_porEnter">
+                    <ul class="o_g">
+                        <li class="o_u o_df_1-4 o_sm_1-2 o_xs_2-2">
+                            <a href="javascript:;">
+                                <img src="./images/ia_100000001.png" alt="">
+                            </a>
+                            <div class="text">
+                                <a href="javascript:;">指挥科技•诠释智慧</a>
+                                <p>卡萨帝指挥家高端成套家电</p>
+                            </div>
+                        </li>
+                        <li class="o_u o_df_1-4 o_sm_1-2 o_xs_2-2">
+                            <a href="javascript:;">
+                                <img src="./images/ia_100000002.png" alt="">
+                            </a>
+                            <div class="text">
+                                <a href="javascript:;">卡萨帝智慧高端成套厨房</a>
+                                <p>全空间嵌入 智慧烹饪家</p>
+                            </div>
+                        </li>
+                        <li class="o_u o_df_1-4 o_sm_1-2 o_xs_2-2">
+                            <a href="javascript:;">
+                                <img src="./images/ia_100000003.png" alt="">
+                            </a>
+                            <div class="text">
+                                <a href="javascript:;">卡萨帝体验店</a>
+                                <p>格调生活，触手可及</p>
+                            </div>
+                        </li>
+                        <li class="o_u o_df_1-4 o_sm_1-2 o_xs_2-2">
+                            <a href="javascript:;">
+                                <img src="./images/ia_100000004.png" alt="">
+                            </a>
+                            <div class="text">
+                                <a href="javascript:;">卡萨帝品牌视频</a>
+                                <p>家的艺术，在于发现爱的意义</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 分割线 -->
+            <div class="line"></div>
+            <div class="c_proGroup">
+                <ul class="o_g">
+                    <li class="o_u o_df_1-2 o_xs_2-2">
+                        <a href="javascript:;">
+                            <img src="./images/ia_100000037.jpg" alt="">
+                        </a>
+                        <div class="text">
+                            <a href="javascript:;">简约现代</a>
+                            <p>简约中求艺术，化繁为简。从简单舒适中体现生活的精致。</p>
+                        </div>
+                    </li>
+                    <li class="o_u o_df_1-2 o_xs_2-2">
+                        <a href="javascript:;">
+                            <img src="./images/ia_100000038.jpg" alt="">
+                        </a>
+                        <div class="text">
+                            <a href="javascript:;">优雅不凡</a>
+                            <p>遇见它，即遇见了灵感，是那么内涵、灵性、与众不同。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cui_mainbox">
+                <div class="c_proshowbox">
+                    <ul class="o_g">
+                        <li class="o_u o_df_1-3 o_xs_2-2 ">
+                            <a href="javascrit:;" class="relative">
+                                <div class="imgbox relative">
+                                    <img src="./images/ia_100000039.jpg" alt="">
+                                    <i class="c_play"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="o_u o_df_2-3 o_xs_2-2 ">
+                            <a href="javascrit:;" class="relative">
+                                <div class="imgbox relative">
+                                    <img src="./images/ia_100000040.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="binfenC relative">
+                    <h1>
+                        缤纷卡萨帝
+                        <a href="javascript:;" class="o_df-right">查看全部
+                            <span class="iconfont">&#xe74b;</span>
+                        </a>
+                    </h1>
+                    <div class="showbox">
 
-            <!--banner start-->
+                    </div>
 
-            <!--banner end-->
+                </div>
+            </div>
 
             <!-- 尾部start -->
             <!--#include virtual="footer.shtml"-->
@@ -37,7 +180,10 @@
     <!-- js资源start -->
     <!-- js资源end -->
     <!-- 本地页面独立js start -->
+    <script type="text/javascript" src="./images/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="./images/obox-min.js"></script>
+    <script type="text/javascript" src="./images/casarte.js"></script>
+
     <!-- 本页面独立js end -->
 </body>
 
