@@ -1,1 +1,7 @@
-这是头部
+<div class="main_header">
+    <div class="header_cont">
+        <a href="javascript:;" class="logo">
+            <img src="./images/ia_100000000.png" alt="">
+        </a>
+    </div>
+</div>
