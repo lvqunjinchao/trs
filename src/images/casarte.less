@@ -6,12 +6,110 @@
     position: relative;
 }
 
+.displaynone {
+    display: none !important;
+}
+
+.displayinlineblock {
+    display: inline-block !important;
+}
+
+.displayblock {
+    display: block !important;
+}
+
+.colorwhite {
+    color: #fff !important;
+}
+
+.bca88747 {
+    background-color: #a88747 !important;
+}
+
+// 右侧边栏
+.cui_sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 36px;
+    background: #fff;
+    color: #a88747;
+    z-index: 99;
+    .gototop_box {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 36px;
+        height: auto!important;
+        img {
+            width: 100%;
+        }
+    }
+    .userbar {
+        display: table;
+        .o_cell {
+            vertical-align: top;
+            .first {
+                height: 40.68px;
+            }
+            .btnlist li {
+                display: inline-block;
+                width: 36px;
+                position: relative;
+                height: 36px;
+                margin-bottom: 10px;
+                span {
+                    cursor: pointer;
+                    font-size: 20px;
+                    color: #a88747;
+                    position: relative;
+                    display: inline-block;
+                    line-height: 36px;
+                    height: 36px;
+                }
+                b {
+                    font-weight: 400;
+                    font-size: 12px;
+                    display: none;
+                    height: 36px;
+                    line-height: 36px;
+                    color: #fff;
+                    position: absolute;
+                    padding: 0 15px;
+                    right: 36px;
+                    top: 0;
+                    white-space: nowrap;
+                    background: #a88747;
+                }
+                .cont {
+                    display: none;
+                    padding: 15px;
+                    position: absolute;
+                    right: 40px;
+                    bottom: 0;
+                    border: 1px solid #eee;
+                    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+                    font-size: 12px;
+                    color: #333;
+                    line-height: 1.3em;
+                    background: #fff;
+                    img {
+                        width: 100px;
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // 头部的样式
 .main_header {
     .header_cont {
         height: 80px;
         background: #fff;
-        width: 1170px;
+        max-width: 1170px;
         margin: 0 auto;
         z-index: 11;
         position: relative;
@@ -116,12 +214,14 @@
     }
 }
 
+
+
 // 尾部的样式
 .main_footer {
     background: #f8f8f8;
     padding-top: 60px;
     .cui_mainbox {
-        width: 1170px;
+        max-width: 1170px;
         margin: 0 auto;
         padding: 0;
         .menu {
@@ -370,7 +470,7 @@
 
 .cui_mainbox {
     padding: 0;
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     .c_proshowbox {
         padding-top: 60px;
@@ -417,7 +517,7 @@
         .showbox {
             overflow: hidden;
             position: relative;
-            width: 1052px;
+            max-width: 1052px;
             margin: 0 0;
             margin-top: 15px;
             ul li div {
@@ -444,7 +544,7 @@
                 img {
                     width: 100%;
                 }
-                span.artflag{
+                span.artflag {
                     font-size: 12px;
                     width: 60px;
                     height: 25px;
@@ -455,10 +555,10 @@
                     right: 0px;
                     bottom: 0px;
                     background: url(./ia_100000102.png) no-repeat;
-                    &.end{
+                    &.end {
                         background-position: -60px 0px;
                     }
-                    &.start{
+                    &.start {
                         background-position: 0px 0px;
                     }
                 }
@@ -524,5 +624,13 @@
         .pager li.cur {
             background: black;
         }
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .main_footer  .cui_mainbox {
+        width: 970px;
+    }
+    .main_footer .bottom .aboutbox .copyright {
+        margin-left: 65px;
     }
 }

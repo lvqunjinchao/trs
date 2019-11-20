@@ -21,6 +21,39 @@
 </head>
 
 <body>
+    <!-- 右侧边栏 -->
+    <div class="cui_sidebar o_md-hide o_sm-hide  o_xs-hide o_animate">
+        <div class="userbar">
+            <div class="o_cell">
+                <div class="first"></div>
+                <ul class="btnlist js_btnlist">
+                    <li class="user js_user">
+                        <span class="iconfont">&#xe620;</span>
+                        <b>我的权益</b>
+                    </li>
+                    <li class="user js_user">
+                        <span class="iconfont">&#xe646;</span>
+                        <b>我的收藏</b>
+                    </li>
+                    <li class="twocode js_twocode">
+                        <span class="iconfont">&#xe63c;</span>
+                        <div class="cont">
+                            <img src="./images/ia_100000000222.png" alt="">
+                        </div>
+                    </li>
+                    <li class="user">
+                        <span class="iconfont">&#xe60f;</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="gototop_box js_gototop_box">
+            <img src="./images/ia_100000181.png" alt="">
+        </div>
+    </div>
+
+
+
     <div class="o_body">
         <div class="o_main">
             <!-- 头部start -->

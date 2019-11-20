@@ -1,7 +1,7 @@
 <div class="main_footer">
     <div class="cui_mainbox">
         <div class="o_g">
-            <div class="o_u o_df_8-12">
+            <div class="o_u o_df_8-12 o_xs_2-2 o_lg_9-12 o_sm_2-2 o_xs-hide">
                 <ul class="menu o_g">
                     <li class="o_u o_df_2-12 o_xs_2-2">
                         <h1>探索卡萨帝</h1>
@@ -54,7 +54,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="o_u o_df_4-12">
+            <div class="o_u o_df_3-12 o_xs_2-2 o_lg_3-12 o_sm_2-2">
                 <div class="activity o_center o_g">
                     <div class="o_u o_df_2-2 o_sm_4-12">
                         <a href="javascript:;">
