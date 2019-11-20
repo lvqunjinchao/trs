@@ -1,11 +1,14 @@
 <div class="main_header">
-    <div class="header_cont">
+    <div class="header_cont relative">
+        <span class="o_menu_link o_fixW o_animate header_menu">
+            <i class="iconfont">&#xe63a;</i>
+        </span>
         <a href="javascript:;" class="logo">
             <img src="./images/ia_100000000.png" alt="">
         </a>
-        <div class="o_g ">
-            <div class="o_u o_df_10-12 o_clearbox">
-                <ul class="o_lg-left o_df-left">
+        <div class="o_g">
+            <div class="o_u o_df_10-12 o_xs_1-12 o_clearbox">
+                <ul class="o_lg-left o_df-left o_xs-hide">
                     <li class="item">
                         <span class="toggle">
                             <span>探索卡萨帝</span>
@@ -31,7 +34,7 @@
                         </span>
                     </li>
                 </ul>
-                <ul class="o_lg-right o_df-right">
+                <ul class="o_lg-right o_df-right o_xs-hide">
                     <li class="item">
                         <span class="toggle">
                             <span>服务</span>
@@ -46,18 +49,18 @@
                     </li>
                 </ul>
             </div>
-            <div class="o_u o_df_2-12 o_df-textright">
+            <div class="o_u o_df_2-12 o_xs_11-12 o_df-textright header_infor">
                 <div class="main_select relative js_main_select">
                     <div class="toggle">
                         <i class="iconfont">&#xe636;</i>
                     </div>
-                    <div class="contral">
+                    <div class="contral o_xs-hide">
                         <i class="iconfont">&#xe636;</i>
                         <form action="">
                             <input type="text">
                         </form>
                     </div>
-                    <div class="list">
+                    <div class="list o_xs-hide">
                         <h2>快速链接</h2>
                         <ul class="headerLink">
                             <li>
@@ -82,7 +85,7 @@
                     <a href="javascript:;">
                         <i class="iconfont">&#xe620;</i>
                     </a>
-                    <span class="o_xs-hide">
+                    <span class="o_xs-hide o_xs-hide">
                         <a href="javascript:;">登录</a>
                         <a href="javascript:;">注册</a>
                     </span>

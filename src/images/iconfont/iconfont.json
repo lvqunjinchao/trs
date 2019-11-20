@@ -153,6 +153,13 @@
       "unicode_decimal": 58929
     },
     {
+      "icon_id": "8159857",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
       "icon_id": "8423795",
       "name": "书写笔 记录",
       "font_class": "huaban",
