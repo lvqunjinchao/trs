@@ -45,3 +45,25 @@ $('.js_btnlist').on('mouseleave', '.js_twocode', function() {
 $(".js_gototop_box").click(function() {
     $("html,body").animate({ scrollTop: 0 }, 500);
 });
+
+//搜索栏
+// 点击其他地方隐藏搜索相关
+$(".js_main_select").on("click", function(e) {
+    var main_select = $(this);
+    main_select.addClass('open');
+    main_select.find('.contral').find('i').addClass('displayinlineblock');
+    main_select.find('.list').addClass('displayblock');
+    main_select.find('input').focus();
+
+    $(document).one("click", function() {
+        main_select.removeClass('open');
+        main_select.find('.contral').find('i').removeClass('displayinlineblock');
+        main_select.find('.list').removeClass('displayblock');
+        main_select.find('input').blur();
+    });
+
+    e.stopPropagation();
+});
+$(".js_main_select").on("click", function(e) {
+    e.stopPropagation();
+});

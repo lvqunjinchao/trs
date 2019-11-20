@@ -47,9 +47,35 @@
                 </ul>
             </div>
             <div class="o_u o_df_2-12 o_df-textright">
-                <div class="main_select">
+                <div class="main_select relative js_main_select">
                     <div class="toggle">
                         <i class="iconfont">&#xe636;</i>
+                    </div>
+                    <div class="contral">
+                        <i class="iconfont">&#xe636;</i>
+                        <form action="">
+                            <input type="text">
+                        </form>
+                    </div>
+                    <div class="list">
+                        <h2>快速链接</h2>
+                        <ul class="headerLink">
+                            <li>
+                                <a href="javascript:;">查找体验店</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">帮助中心</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">品牌活动</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">售后服务</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">联系我们</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="main_loginbox">

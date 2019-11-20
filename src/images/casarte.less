@@ -25,7 +25,9 @@
 .bca88747 {
     background-color: #a88747 !important;
 }
-
+.open{
+    z-index: 1;
+}
 // 右侧边栏
 .cui_sidebar {
     position: fixed;
@@ -184,6 +186,87 @@
                         font-style: normal;
                     }
                 }
+                .contral {
+                    background: #fff;
+                    top: 0;
+                    border: 1px solid #fff;
+                    border-radius: 3px;
+                    width: 100%;
+                    height: 58px;
+                    z-index: 0;
+                    display: block;
+                    width: 180px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    form input {
+                        border: none;
+                        padding: 0;
+                        height: 20px;
+                        font-size: 14px;
+                        color: #999;
+                        position: absolute;
+                        top: 50%;
+                        margin-top: -10px;
+                        left: 60px;
+                        line-height: 20px;
+                        width: 90px;
+                        background: 0 0;
+                    }
+                    i{
+                        display: none;
+                        z-index: 0;
+                        color: #8a6f3a;
+                        font-size: 25px;
+                        line-height: 58px;
+                        top: -1px;
+                        position: absolute;
+                        left: -1px;
+                        width: 60px;
+                        text-align: center;
+                    }
+                }
+                .list {
+                    left: 1px;
+                    font-size: 12px;
+                    width: 180px;
+                    position: absolute;
+                    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+                    background: #fff;
+                    top: 60px; 
+                    display: none;
+                    text-align: left;
+                    h2 {
+                        color: #999;
+                        font-size: 12px;
+                        line-height: 50px;
+                        border-bottom: 1px solid #efefef;
+                        padding: 0 15px;
+                    }
+                    .headerLink {
+                        margin: 5px 0;
+                        a {
+                            display: block;
+                            line-height: 32px;
+                            font-size: 12px;
+                            margin: 0 5px;
+                            padding: 0 10px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            color: #666;
+                        }
+                    }
+                }
+            }
+            .main_select.open{
+                .contral{
+                    border-color:#8a6f3a ;
+                    width: 180px;
+                    z-index: 2;
+                    opacity: 1;
+                    display: block;
+                }
             }
             .main_loginbox {
                 margin: 10px 0 0;
@@ -213,8 +296,6 @@
         }
     }
 }
-
-
 
 // 尾部的样式
 .main_footer {
@@ -626,8 +707,9 @@
         }
     }
 }
+
 @media screen and (max-width: 1199px) and (min-width: 992px) {
-    .main_footer  .cui_mainbox {
+    .main_footer .cui_mainbox {
         width: 970px;
     }
     .main_footer .bottom .aboutbox .copyright {
