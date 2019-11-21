@@ -3,13 +3,13 @@ var bannerSlider = $(".js_banner").oSlider({
     loop: true,
     pager: ".js_pager",
     pagerHover: false,
-    speed: 3000,
-    startFn: function() {
-        console.log("开始");
-    },
-    playFn: function() {
-        console.log("play");
-    }
+    // speed: 3000,
+    // startFn: function() {
+    //     console.log("开始");
+    // },
+    // playFn: function() {
+    //     console.log("play");
+    // }
 });
 bannerSlider.init();
 // 第二个轮播图
@@ -67,3 +67,6 @@ $(".js_main_select").on("click", function(e) {
 $(".js_main_select").on("click", function(e) {
     e.stopPropagation();
 });
+// 轮播图的箭头
+$('.btn_next').text('>');
+$('.btn_prev').text('<');

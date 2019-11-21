@@ -535,6 +535,7 @@
 
 .c_proGroup {
     padding: 60px 15px 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
     ul li {
         padding: 0 15px 30px;
         font-size: 0;
@@ -568,12 +569,12 @@
     margin: 0 auto;
     .c_proshowbox {
         padding-top: 60px;
-        ul li a {
+        a {
             display: block;
             overflow: hidden;
             padding: 0 15px 60px;
             img {
-                height: 100%;
+                width: 100%;
             }
             i {
                 position: absolute;
@@ -586,6 +587,9 @@
                 height: 48px;
                 background: url(./ia_100000115.png)no-repeat -38px -265px;
             }
+        }
+        .text{
+            display: none;
         }
     }
     .binfenC {
@@ -792,9 +796,108 @@
                     height: 100%;
                     text-align: center;
                     line-height: 50px;
-                    .iconfont{
+                    .iconfont {
                         margin-right: 0;
                         display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    .c_indextop {
+        .c_porEnter{
+            padding: 45px 0px 15px;
+        }
+        .banner {
+            padding: 0;
+            border-bottom: 1px solid rgb(240, 240, 240);
+            .btn_prev {
+                left: 0%;
+                width: 50px;
+                bottom: 0;
+                font-size: 24px;
+                text-align: center;
+            }
+            .btn_next {
+                right: 0%;
+                width: 50px;
+                font-size: 24px;
+                bottom: 0;
+                text-align: center;
+            }
+            /*需要左右箭头自定义css*/
+            .showbox {
+                width: 100%;
+                .banner_detail {
+                    position: static;
+                    padding: 0 5%;
+                    left: 0;
+                    height: 125px;
+                    h2 {
+                        margin-top: 0;
+                        padding-top: 30px;
+                        font-size: 20px;
+                        text-align: center;
+                        overflow: hidden;
+                        color: #333;
+                        font-weight: normal;
+                        text-shadow: none;
+                    }
+                    p {
+                        font-size: 14px;
+                        color: #999!important;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-bottom: 45px;
+                        text-shadow: none;
+                    }
+                }
+            }
+            .pager {
+                li {
+                    width: 6px;
+                    height: 6px;
+                    border: 0;
+                }
+            }
+        }
+    }
+    .c_proGroup{
+        padding-left: 15px;
+        padding-right: 15px;
+        ul li{
+            padding: 0 0px 30px;
+        }
+    }
+    .cui_mainbox {
+        .c_proshowbox {
+            padding: 0 15px!important;
+            a {
+                padding: 0;
+                .imgbox{
+                    text-align: center;
+                    img{
+                        width: 66.6%;
+                    }
+                    img.img2{
+                        width: 100%;
+                    }
+                }
+                .text {
+                    display: block;
+                    text-align: center;
+                    h1 {
+                        line-height: 1.1em;
+                        margin-bottom: 10px;
+                        padding-top: 20px;
+                        font-size: 18px;
+                        color: #333;
+                    }
+                    p {
+                        color: #999;
+                        font-size: 14px;
+                        line-height: 1.75em;
+                        padding-bottom: 30px;
                     }
                 }
             }

@@ -509,6 +509,7 @@
 }
 .c_proGroup {
   padding: 60px 15px 0;
+  border-bottom: 1px solid #f0f0f0;
 }
 .c_proGroup ul li {
   padding: 0 15px 30px;
@@ -543,15 +544,15 @@
 .cui_mainbox .c_proshowbox {
   padding-top: 60px;
 }
-.cui_mainbox .c_proshowbox ul li a {
+.cui_mainbox .c_proshowbox a {
   display: block;
   overflow: hidden;
   padding: 0 15px 60px;
 }
-.cui_mainbox .c_proshowbox ul li a img {
-  height: 100%;
+.cui_mainbox .c_proshowbox a img {
+  width: 100%;
 }
-.cui_mainbox .c_proshowbox ul li a i {
+.cui_mainbox .c_proshowbox a i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -561,6 +562,9 @@
   width: 48px;
   height: 48px;
   background: url(./ia_100000115.png) no-repeat -38px -265px;
+}
+.cui_mainbox .c_proshowbox .text {
+  display: none;
 }
 .cui_mainbox .binfenC {
   margin-bottom: 80px;
@@ -768,5 +772,98 @@
   .main_header .header_cont .header_infor .main_loginbox a .iconfont {
     margin-right: 0;
     display: inline-block;
+  }
+  .c_indextop .c_porEnter {
+    padding: 45px 0px 15px;
+  }
+  .c_indextop .banner {
+    padding: 0;
+    border-bottom: 1px solid #f0f0f0;
+    /*需要左右箭头自定义css*/
+  }
+  .c_indextop .banner .btn_prev {
+    left: 0%;
+    width: 50px;
+    bottom: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .c_indextop .banner .btn_next {
+    right: 0%;
+    width: 50px;
+    font-size: 24px;
+    bottom: 0;
+    text-align: center;
+  }
+  .c_indextop .banner .showbox {
+    width: 100%;
+  }
+  .c_indextop .banner .showbox .banner_detail {
+    position: static;
+    padding: 0 5%;
+    left: 0;
+    height: 125px;
+  }
+  .c_indextop .banner .showbox .banner_detail h2 {
+    margin-top: 0;
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    color: #333;
+    font-weight: normal;
+    text-shadow: none;
+  }
+  .c_indextop .banner .showbox .banner_detail p {
+    font-size: 14px;
+    color: #999 !important;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 45px;
+    text-shadow: none;
+  }
+  .c_indextop .banner .pager li {
+    width: 6px;
+    height: 6px;
+    border: 0;
+  }
+  .c_proGroup {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .c_proGroup ul li {
+    padding: 0 0px 30px;
+  }
+  .cui_mainbox .c_proshowbox {
+    padding: 0 15px!important;
+  }
+  .cui_mainbox .c_proshowbox a {
+    padding: 0;
+  }
+  .cui_mainbox .c_proshowbox a .imgbox {
+    text-align: center;
+  }
+  .cui_mainbox .c_proshowbox a .imgbox img {
+    width: 66.6%;
+  }
+  .cui_mainbox .c_proshowbox a .imgbox img.img2 {
+    width: 100%;
+  }
+  .cui_mainbox .c_proshowbox a .text {
+    display: block;
+    text-align: center;
+  }
+  .cui_mainbox .c_proshowbox a .text h1 {
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  .cui_mainbox .c_proshowbox a .text p {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.75em;
+    padding-bottom: 30px;
   }
 }

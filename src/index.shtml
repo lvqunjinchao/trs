@@ -180,12 +180,20 @@
                                     <img src="./images/ia_100000039.jpg" alt="">
                                     <i class="c_play"></i>
                                 </div>
+                                <div class="text relative">
+                                    <h1>卡萨帝星云电烤箱</h1>
+                                    <p>BH60TSU1</p>
+                                </div>
                             </a>
                         </li>
                         <li class="o_u o_df_2-3 o_xs_2-2 ">
                             <a href="javascrit:;" class="relative">
                                 <div class="imgbox relative">
-                                    <img src="./images/ia_100000040.jpg" alt="">
+                                    <img src="./images/ia_100000040.jpg" alt="" class="img2">
+                                </div>
+                                <div class="text relative">
+                                    <h1>卡萨帝天玺空调-臻享版</h1>
+                                    <p>CAP751VAA(A1)U1</p>
                                 </div>
                             </a>
                         </li>
@@ -201,8 +209,8 @@
                     <div class="banner js_banner2">
                         <div class="showbox">
                             <ul class="o_g">
-                                <li class="o_u o_df_2-2 o_sm_1-2">
-                                    <div class="o_u o_df_1-4">
+                                <li class="o_u o_df_2-2 o_sm_1-2 o_xs_2-2">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag start">进行中</span>
@@ -215,7 +223,7 @@
                                             <span class="name">卡萨帝官网</span>
                                         </div>
                                     </div>
-                                    <div class="o_u o_df_1-4">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag start">进行中</span>
@@ -228,7 +236,7 @@
                                             <span class="name">卡萨帝官网</span>
                                         </div>
                                     </div>
-                                    <div class="o_u o_df_1-4">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag start">进行中</span>
@@ -241,7 +249,7 @@
                                             <span class="name">卡萨帝官网</span>
                                         </div>
                                     </div>
-                                    <div class="o_u o_df_1-4">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag end">已结束</span>
@@ -255,8 +263,8 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="o_u o_df_2-2 o_sm_1-2">
-                                    <div class="o_u o_df_1-4">
+                                <li class="o_u o_df_2-2 o_sm_1-2 o_xs_2-2">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag end">已结束</span>
@@ -269,7 +277,7 @@
                                             <span class="name">卡萨帝官网</span>
                                         </div>
                                     </div>
-                                    <div class="o_u o_df_1-4">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag end">已结束</span>
@@ -282,7 +290,7 @@
                                             <span class="name">卡萨帝官网</span>
                                         </div>
                                     </div>
-                                    <div class="o_u o_df_1-4">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag start">进行中</span>
@@ -295,7 +303,7 @@
                                             <span class="name">卡萨帝官网</span>
                                         </div>
                                     </div>
-                                    <div class="o_u o_df_1-4">
+                                    <div class="o_u o_df_1-4 o_xs_1-2">
                                         <a href="javascript:;" class="imgbox">
                                             <img src="./images/ia_100000041.jpg" alt="">
                                             <span class="artflag start">进行中</span>
