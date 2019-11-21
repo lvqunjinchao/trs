@@ -697,6 +697,12 @@
 .cui_mainbox .binfenC .pager li.cur {
   background: black;
 }
+.cui_mainbox .binfenC_list {
+  display: none;
+}
+.cui_mainbox .more {
+  display: none;
+}
 @media screen and (max-width: 1199px) and (min-width: 992px) {
   .main_footer .cui_mainbox {
     width: 970px;
@@ -865,5 +871,136 @@
     font-size: 14px;
     line-height: 1.75em;
     padding-bottom: 30px;
+  }
+  .cui_mainbox .binfenC_list {
+    display: block;
+    padding: 0 15px!important;
+    overflow: hidden;
+    position: relative;
+    max-width: 1052px;
+    margin: 0 0;
+    margin-top: 15px;
+  }
+  .cui_mainbox .binfenC_list ul li {
+    padding: 0;
+    padding: 0 15px;
+    white-space: normal;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+  }
+  .cui_mainbox .binfenC_list ul li .tit {
+    color: #333;
+    line-height: 1.2em;
+    display: block;
+    height: 1.1em;
+    overflow: hidden;
+    font-size: 12px;
+    margin: 15px 0;
+  }
+  .cui_mainbox .binfenC_list a.imgbox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+  }
+  .cui_mainbox .binfenC_list a.imgbox img {
+    width: 100%;
+  }
+  .cui_mainbox .binfenC_list a.imgbox span.artflag {
+    font-size: 12px;
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    line-height: 25px;
+    text-indent: 16px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: url(./ia_100000102.png) no-repeat;
+  }
+  .cui_mainbox .binfenC_list a.imgbox span.artflag.end {
+    background-position: -60px 0px;
+  }
+  .cui_mainbox .binfenC_list a.imgbox span.artflag.start {
+    background-position: 0px 0px;
+  }
+  .cui_mainbox .binfenC_list .tool {
+    border-top: 1px solid #f2f2f2;
+    padding: 10px 0 30px;
+    line-height: 16px;
+    color: #666;
+    font-size: 0;
+  }
+  .cui_mainbox .binfenC_list .tool .brand {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    color: white;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    line-height: 24px;
+    background: #000;
+    font-size: 12px;
+  }
+  .cui_mainbox .binfenC_list .tool .name {
+    font-size: 12px;
+  }
+  .cui_mainbox .more {
+    height: 18px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    margin-bottom: 80px;
+  }
+  .cui_mainbox .more a {
+    display: inline-block;
+    background: white;
+    position: relative;
+    padding-top: 32px;
+  }
+  .cui_mainbox .more a span {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: #080404;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+  }
+  .cui_mainbox .more a p {
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+  }
+  .main_footer {
+    padding: 0 15px;
+  }
+  .main_footer .bottom .aboutbox {
+    text-align: center;
+  }
+  .main_footer .bottom .aboutbox .copyright {
+    text-align: center;
+    display: block;
+    margin-left: 0;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-right: 10px 0;
+  }
+  .main_footer .bottom .follow {
+    position: static;
+    text-align: center;
+  }
+  .main_footer .bottom .follow span {
+    display: block;
+    margin-right: 0;
+  }
+  .main_footer .bottom .follow a {
+    margin-right: 10px;
   }
 }

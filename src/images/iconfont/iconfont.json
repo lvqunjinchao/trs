@@ -83,6 +83,13 @@
       "unicode_decimal": 58892
     },
     {
+      "icon_id": "933718",
+      "name": "循环",
+      "font_class": "xunhuan",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
       "icon_id": "978353",
       "name": "新浪微博",
       "font_class": "weibo2",

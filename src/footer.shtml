@@ -54,7 +54,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="o_u o_df_3-12 o_xs_2-2 o_lg_3-12 o_sm_2-2">
+            <div class="o_u o_df_3-12 o_xs_2-2 o_lg_3-12 o_sm_2-2 foot_img_box">
                 <div class="activity o_center o_g">
                     <div class="o_u o_df_2-2 o_sm_4-12">
                         <a href="javascript:;">
@@ -74,7 +74,7 @@
 
         </div>
         <div class="bottom">
-            <div class="aboutbox">
+            <div class="aboutbox o_xs_2-2">
                 <a href="javascript:;" class="o_textlink_base ">联系我们</a>
                 <a href="javascript:;" class="o_textlink_base ">法律声明</a>
                 <a href="javascript:;" class="o_textlink_base ">帮助中心</a>
@@ -82,7 +82,7 @@
                 <a href="javascript:;" class="o_textlink_base ">卡萨帝体验店</a>
                 <p class="copyright">Copyright © 2016 海尔集团版权所有 鲁ICP备09096283号</p>
             </div>
-            <div class="follow">
+            <div class="follow o_xs_2-2">
                 <span>关注Casarte</span>
                 <a href="javascriptt:;"><i class="iconfont">&#xe63d;</i></a>
                 <a href="javascriptt:;"><i class="iconfont">&#xe686;</i></a>
