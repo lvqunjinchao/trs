@@ -62,6 +62,13 @@
       "unicode_decimal": 59061
     },
     {
+      "icon_id": "689296",
+      "name": "添加 加号 无边框",
+      "font_class": "tianjiajiahaowubiankuang",
+      "unicode": "e81a",
+      "unicode_decimal": 59418
+    },
+    {
       "icon_id": "816015",
       "name": "箭头",
       "font_class": "jiantou",
