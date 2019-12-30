@@ -196,7 +196,6 @@
 .main_header .header_cont .header_infor .main_select {
   width: 60px;
   height: 60px;
-  margin: 10px 0 0;
   display: inline-block;
 }
 .main_header .header_cont .header_infor .main_select .search_close {
@@ -298,7 +297,6 @@
   display: block;
 }
 .main_header .header_cont .header_infor .main_loginbox {
-  margin: 10px 0 0;
   position: relative;
   display: inline-block;
   vertical-align: top;
